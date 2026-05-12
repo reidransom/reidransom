@@ -1,1 +1,11 @@
-hello world
+media: media
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
